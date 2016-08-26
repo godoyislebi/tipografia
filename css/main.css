@@ -1,0 +1,51 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.caja{
+	width:185px;
+	height: 300px;
+	float:left;
+	background: #f5f5f5;
+	text-align: center;
+	margin:5px;
+	border: transparent;
+	padding-top: 50px; 
+	border-radius: 5px;
+}
+.caja:hover{
+	width: 195px;
+	height: 325px;
+	color:#1e90ff;
+	transition: width 1s, height 1s, color 1s;
+}
+.icon{
+	font-size: 40px;
+	color:#a9a9a9;
+	transition: font-size 1s, color 1s;
+}
+.caja:hover span{
+	font-size:65px;
+	color:#1e90ff;
+	transition: font-size 1s, color 1s;
+}
+h3{
+	color:#a9a9a9;
+}
+h5{
+	font-family: cursive;
+	color:#a9a9a9;
+}
+p{
+	color:#a9a9a9;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+.caja:hover h3{
+	color:#1e90ff;
+	transition: color 1s;
+}
+.caja:hover p{
+	color:#1e90ff;
+	transition: color 1s;
+
+}
